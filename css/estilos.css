@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.col-centrar{
+    float: none !important;
+    padding: 0 auto !important; 
+}
+
+/* ALERTA GENERAL (CONTAINER) */
+
+.alerta {
+    margin-bottom: 30px; 
+    padding: 15px 15px 20px 90px; 
+    position: relative; 
+    border-radius: 5px;
+}
+
+.alerta .alerta_icon {
+    width: 60px; height: 60px; 
+    font-size: 30px; line-height: 60px; 
+    color: rgba(0, 0, 0, .4); 
+    position: absolute; 
+    left: 10px; 
+    top: 15px; 
+    text-align: center; 
+    border-radius: 5px;
+}
+
+.alerta a:hover.close i {
+    color: rgba(0, 0, 0, .8);
+}
+
+
+
+
+/* ALERTA WARNING */
+
+
+.alerta_warning {
+    background-color: #ffd342; 
+    color: #85712f;
+}
+.alerta_warning .alerta_icon {
+    background: #e4bf46 ;
+}
+
+.alerta_warning a, .alerta_warning a:hover {
+    color:  #605012 !important;
+}
+
+
+/* ALERTA ERROR */
+
+
+.alerta_error {
+    background-color: #fb5455; 
+    color: #fff;
+}
+
+.alerta_error .alerta_icon {
+    background: #f24143;
+}
+
+.alerta_error a, .alerta_error a:hover {
+    color:  #9f2e2e !important;
+}
+
+
+/* ALERTA NOTICE */ 
+
+
+
+.alerta_info {
+    background-color: #3097db; color: #fff;
+}
+
+.alerta_info .alerta_icon {
+    background: #1c81c4;
+}
+
+.alerta_info a, .alerta_info a:hover {
+    color:  #b1e0ff !important;
+}
+
+
+/* ICONOS */
+
+
+.icon-close{
+    width: 15px;
+    height: 15px;
+    float: right;
+    
+}
+
+.icon-logo{
+    width: 40px;
+    height: 40px;
+    margin-top: -15px;
+}
+
+.caja{
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+}
+
+.formulario{
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+}
+
+.caja1{
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+}
+
+
+/*   Input adjuntar archivos   */
+
+.cargar-archivo{
+    padding: 5px 5px 5px 5px !important;
+}
